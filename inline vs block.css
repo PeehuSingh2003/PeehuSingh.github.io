@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+h1,h2 {
+    border: 2px solid #222;
+    width: 500px;
+    /* display properities: it used to change the block level elements into inline elements */
+    display: inline;
+}
+
+h1 {
+    /* margin: 100px; */
+    padding: 100px;
+}
+
+/* in block elements padding adds clearly and suitably while in inline elements padding may sometimes get overflow or out of the box */
+
+/* we can see modifications of height and width
+ visually while we cannot see it in inline elements */
+
+a {
+    border: 2px solid #e11212;
+    /* in inline elements top and bottom do things mess up while it may work somehow in left and right padding */
+    padding: 0 50px;
+    display: block;
+    margin: 50px 10px;
+}
+
+/* inline don't have top and bottom margins; they have only left and right margins while block elements have all marginal properities */

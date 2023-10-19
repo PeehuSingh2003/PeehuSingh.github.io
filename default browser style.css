@@ -1,0 +1,17 @@
+/* we use universal selector for applying css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* after reseting all the above properities we use to start styling our web page according to our desire */
+
+h1{
+    margin: 10px;
+}
+
+p{
+    margin: 8px;
+    padding: 20px;
+}

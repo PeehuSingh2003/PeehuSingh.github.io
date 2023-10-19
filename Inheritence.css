@@ -1,0 +1,21 @@
+body{
+    color: #ff0000;
+}
+
+.container1{
+    color: green;
+}
+
+.container2{
+    color: blue;
+}
+
+h1{
+    color: orange;
+}
+
+a{
+    color:crimson;
+    /* i can remove its default underline under the word by writing text decoration: none */
+    text-decoration:none ;
+}

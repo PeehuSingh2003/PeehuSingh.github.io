@@ -1,0 +1,18 @@
+/* a {
+    border: 2px solid black;
+    margin: 50px;
+    padding: 20px;
+} */
+
+ /* margin and padding properties will do undesirable changes and we cannot control its height and width because it is inline element it will only that much height and width as much it requires so for applying all this properties we change the display of it into block by applying block properities*/
+
+a{
+    display:inline-block;
+    border: 2px solid black;
+    margin: 20px;
+    /* now we could able to apply to apply margin */
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+

@@ -1,0 +1,12 @@
+body{
+    font-family:'monserrate',sans-serif;
+}
+div{
+    background-color: rgb(187, 190, 210);
+}
+.heading{
+    color: rgb(37, 151, 128);
+}
+#span-color{
+    background-color: aqua;
+}

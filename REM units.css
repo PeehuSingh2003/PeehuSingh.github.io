@@ -1,0 +1,22 @@
+/* html{
+    font-size: 10px;
+    font-size: 62.5%;
+    16px->100%
+    10px->100/16*10->62.5%;
+} */
+/* or */
+:root{
+    font-size: 10px;
+
+}
+/* but if i write html font size 10px then there is 2rem=20px */
+.box1{
+    font-size: 2rem;
+    /* 2rem=32px */
+}
+.text-content{
+    font-size: 3rem;/*3rem=30px*/
+    border: 1rem solid red;
+    margin: 0.5rem;
+    padding: 2.5rem;
+}

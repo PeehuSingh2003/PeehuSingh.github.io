@@ -1,0 +1,41 @@
+p:first-child{
+    color: red;
+}
+/* if p is the first child of its parent then it will get color red */
+
+p:first-of-type{
+    color: blue;
+}
+/* if p is the first p of its parent it will get color blue */
+
+p:last-child{
+    color: rgb(39, 124, 67);
+}
+
+p:last-of-type{
+    color: rgb(232, 222, 35);
+}
+
+p:nth-child(2){
+    color:rgb(213, 42, 159);
+}
+
+/* for even childs */
+p:nth-child(2n){
+    color: mediumslateblue;
+}
+
+/* for odd childs */
+p:nth-child(2n+1){
+    color: gray;
+}
+
+/* nth of type */
+p:nth-of-type(2){
+    color:rgb(232, 222, 35)
+}
+
+ul li:nth-of-type2(2){
+    color:red;
+    background: rgb(112, 31, 188);
+}

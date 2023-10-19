@@ -1,0 +1,27 @@
+/* body :not(p){
+    color:blueviolet;
+ }
+ /* it means all the elements who are not paragraph must be get colored blue */
+/* 
+body :not(.fancy){
+    color: coral;
+    background-color: rgb(240, 222, 216);
+}
+
+div:empty{
+    background: #222;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}  */
+
+:root{
+    background: crimson;
+    color: #eee;
+}
+
+html{
+    background: #333;
+}
+
+/* they both are same and will do same work but root has more specity than html */

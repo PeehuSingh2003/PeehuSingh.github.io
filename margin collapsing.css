@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1,.box2{
+    border: 2px solid #444;
+    padding: 10px;
+}
+
+.box1{
+    margin-bottom: 40px;
+}
+
+.box2{
+    margin-top: 50px;
+}
+
+/* when two margins overlap each other the margin with higher value is always considered this is called margin collapsing */

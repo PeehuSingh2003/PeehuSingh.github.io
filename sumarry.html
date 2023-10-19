@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Peehu singh">
+    <meta name="description" content="this is summarry of html">
+    <meta name="keywords" content="whatever,summary,of, html sumaary">
+    <title>HTML sumarry </title>
+    <style>
+        .table-heading{
+            color:blue;
+        }
+        #mainhedaing{
+            background-color: brown;
+        }
+        /* for span class tag */
+        .amet{
+            background-color: black;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <!-- there are six heading tags in html -->
+<h1 id="main heading">this is heading</h1>
+<h2>hello</h2>
+<h3>hello</h3>
+<h4>hello</h4>
+<h5>hello</h5>
+<h6>hello</h6>
+<!-- paragraph and line break tag -->
+<p>Lorem ipsum dolor sit <span class="amet">amet</span> consectetur adipisicing elit.<br>
+ Labore repellendus eum distinctio voluptatem ipsum nesciunt vel ea 
+ doloribus rem nam! Velit numquam <br>incidunt provident cum, autem tenetur
+  tempora sunt fugit ad aut, blanditiis inventore adipisci expedita.<br>
+   Explicabo excepturi obcaecati dolor similique, laboriosam voluptatibus 
+   voluptatem quo possimus veniam eaque perspiciatis repellendus.</p>
+<!-- hr tag is used to give horizontal line in the page -->
+   <hr>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ratione 
+    ea temporibus voluptatibus, reprehenderit expedita delectus sed itaque aliquid quibusdam!</p>
+<!-- how to create links in html  -->
+<a href="https.//google.co.in">google links</a><br>
+<!-- for open a link on different tab we use target attributes -->
+<a href="https.//google.co.in" target="_blank">google links</a>
+<!-- image tag -->
+<img src="peehuimage.jpeg"alt="Peehu singh">
+<!-- alt attribute is used for adding image description -->
+<!-- tables -->
+<h2 class="table-heading">tables</h2>
+<table border="1">
+    <thead>
+        <th>First name</th>
+        <th>Last name</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Peehu</td>
+            <td>Singh</td>
+        </tr>
+        <tr>
+            <td>Aryan</td>
+            <td>Singh</td>
+        </tr>
+    </tbody>
+</table>
+<!-- forms and its elements -->
+<h2>HTML Forms</h2>
+<form>
+    <!-- label and input type -->
+    <label for="username">Username</label>
+    <input type="text" name="" id=""placeholder="username"><br> <br>
+    <label for="password">Password</label>
+    <input type="password" name="" id=""placeholder="passowrd"><br> <br>
+    <!-- radio button -->
+    <p>select your gender</p>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female"><br> <br>
+    <!-- dropdown list -->
+    <label for="country">country</label>
+    <select name=""id="country">
+        <option value="India">India</option>
+        <option value="America">America</option>
+        <option value="Australia">Australia</option>
+        <option value="China">china</option>
+    </select>
+    <br> <br>
+    <!-- textarea -->
+    <p>Type below</p>
+    <textarea name=""id=""cols="30"rows="10"placeholder="write about yourself"></textarea>
+    <br> <br>
+    <!-- submit button -->
+    <input type="submit" value="Sign in">
+</form>
+<!-- special symbols and keyword in HTML: -->
+<p>this is less than symbol &lt;</p>
+<p>this is greater than symbol &gt;</p>
+<p>this is copyright than symbol &copy;</p>
+<p>this is Rupee symbol &#8377</p>
+<!-- there are also semantic tags in html->header,footer,aside,article,nav,section etc. -->
+</body>
+</html>

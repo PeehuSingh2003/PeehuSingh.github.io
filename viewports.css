@@ -1,0 +1,16 @@
+h1{
+    /* border: 4px solid rgb(4, 66, 14); */
+    /* width: 50%; */
+    /* viewport width: vw; */
+    width: 50vw;
+}
+/* it takes 50% of its parents */
+.box{
+    /* border: 4px solid red; */
+    /* height: 100vh; */
+    /* height: 100vmin; */
+    height: 100vmax;
+    /* width: 50%; */
+    background-color: rgb(70, 189, 191);
+    /* padding: 5px; */
+}

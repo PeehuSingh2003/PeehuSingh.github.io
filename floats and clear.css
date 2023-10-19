@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+   
+}
+/* we can also use after psuedo class with the parent element instead of clearfix class */
+/* .fav-musician:after{
+    content:"";
+    display:block;
+    clear:both;
+} */
+
+
+.fav-musician {
+    border: 10px solid green;
+   
+}
+
+.mozart {
+    width: 25%;
+    /* noe it's width gets applied with respect to their parents */
+    border: 4px solid red;
+    /* in css we use float property to float our elements we can see three kinds of float properties along with left->left,right,none,between */
+    float: left;
+    padding: 20px;
+    background-color: rgb(199, 199, 86);
+}
+
+ .beethoven {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    background-color: lightsalmon;
+}
+
+.bach {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    background-color: rgb(137, 211, 88);
+}
+
+.pagaini {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    background-color: rgb(37, 140, 183);
+}
+
+.box {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}

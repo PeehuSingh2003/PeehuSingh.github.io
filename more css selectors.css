@@ -1,0 +1,43 @@
+/* universal selector */
+
+*{
+    color:blue;
+}
+/* it makes all the text content of html page in blue color  */
+
+header{
+    background-color:#cbbebe;;
+}
+
+section.my-article{
+    background-color:#aaafb5;
+}
+
+/* descendent selector or combinators */
+header p{
+    color:red;
+}
+
+li a{
+    color:red;
+}
+
+/* this combinator make all h2 inside section green */
+section.my-article h2{
+    color:green;
+}
+
+/* but if i don't want to make the article h2 coloe green and only section's 1st h2 green for that we need to add greater than sign while we writing the combinator for it */
+/* this is called direct child combinator seslector */
+section.my-article >h2{
+    color:aquamarine;
+}
+
+/* adjacent selector */
+section.my-article h2+p{
+    color:#b17272;
+}
+
+ul+p{
+    color:green;
+}

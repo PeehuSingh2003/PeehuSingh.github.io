@@ -1,0 +1,33 @@
+/* we use psuedo element to style the particular part of an element  */
+
+p::first-letter{
+    font-size: 32px;
+}
+p::first-line{
+    color: rgb(19, 177, 61);
+}
+p::selection{
+    background-color: rgb(21, 215, 219);
+    color: red;
+}
+.cool::before{
+    display: block;
+    content: 'hello';
+    color: green;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding:4px;
+}
+.cool::after{
+    display: block;
+    content: 'hello';
+    color: green;
+    border: 1px dotted black;
+    margin-top: 5px;
+    padding:4px;
+}
+.main-heading::before{
+    content: 'hello';
+    color: rgb(226, 81, 18);
+}
+/* we cannot psuedo element:before and after with images,br etc. */

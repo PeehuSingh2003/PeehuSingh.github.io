@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- <form method="GET" action="index.html"></form> (For dropdown list) -->
+
+    <!-- form action and method -->
+    <!--we use action and method in backend mostly:
+       1. get-get is a http verb,we do communication in internet by  
+        using http protocol there are so many http verb in 
+        html such as get,put,post,batch,clear etc.
+       2.post-when we use post method the data will go in by adding 
+        header of http while in get the data go in http url  -->
+    <form action="my website.html" method='GET'>
+        <label for="username">Username:</label>
+        <!-- placeholder and required 
+        1.placeholder is used for adding the description in placegolder area 
+        such as enter your name and  enter your email etc.
+        2.while required is used for show the mandatory field that msut be 
+        filled by the user it indicated the notification"please fill out this field"
+         it is must required to be filled to the user otherwise form will not go to 
+         submit or process and unable to reach at the backend and database -->
+
+        <input type="text" id="username" name="username" placeholder="Enter your name" required><br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required><br> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br> <br>
+       
+        <!-- radio button -->
+        <p>Select your gender</p>
+
+        <!-- if i want to send my data on backend then for 
+            that we use value attribute in input tag -->
+        <!-- if i want to select only one option in given option then
+                  i should set the same value for all the name attribute of choices   -->
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male"><br>
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female"><br>
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other" value="other"><br>
+        <br>
+        <!-- dropdown list -->
+
+        <label for="age group">Select your age group</label>
+        <select name="age-group-values"id="age group">
+            <option value="5-10">5-10</option>
+            <option value="11=21">11-21</option>
+            <option value="21-50">21-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <br> <br>
+        <input type="submit" value="sign in">
+
+    </form>
+
+    </form>
+
+</body>
+
+</html>

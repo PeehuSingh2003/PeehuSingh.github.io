@@ -1,0 +1,27 @@
+hr {
+    width: 500px;
+    margin-left: 0;
+    border: 0.5px dashed black;
+}
+
+/* the final width calculation sums up in total by adding other applied properities resolution */
+/* but we don't want to disrupt box width even if we add other properities to it so for that we
+apply border box properties by apply box sizing property to the box */
+
+.box1 {
+    box-sizing: border-box;
+    /* the box sizing properities help us to control and regulate the box width */
+    /* by default we have content box box sizing property applied */
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid rgb(237, 8, 4);
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid rgb(237, 8, 4);
+    padding: 50px;
+}

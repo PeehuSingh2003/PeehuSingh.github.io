@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML id and class attributes</title>
+    <!-- without using ids and classes in html we cannot use css -->
+    <!-- there are 3 ways to write css one is in which we write css in 
+    html head tag by using style tag inside it and in style tag we 
+    write the css properities which we want in our page -->
+    <style>
+        h2 {
+            color: blue;
+        }
+
+        /* the changes in occur in both heading while we want in only first heading so for that we use classes and ids */
+        /* for adding classes in html we use (.)ahead of class value */
+        .heading1 {
+            color: red;
+        }
+
+        .lines {
+            color: brown;
+        }
+        /* # is used for adding id in css  */
+        #lines2{
+            color:rgb(224, 159, 20);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- heading1 are class of h2 tag -->
+    <h2 class="heading1">This is heading</h2>
+    <!-- lines are the class of paragraph tag -->
+    <p class="lines">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Repellendus suscipit corporis ut. Velit quam quaerat,
+        accusantium asperiores recusandae adipisci vel odio
+        quas labore doloremque iste aliquid,dolorum, deleniti
+        possimus voluptatem?</p>
+    <h2>This is also a heading</h2>
+    <!-- we can also give id to it(p-paragraph tag) and 
+        for using id in css we sue # symbol ahead of id name -->
+    <p id="Lines2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Labore qui consequuntur aspernatur dolor amet eius placeat
+        commodi veritatis nam eum. Aut rem quas tenetur saepe
+        inventore! Illo nam quod quia quasi eveniet.</p>
+</body>
+
+</html>
+<!-- convention for writing ids and classes in html:
+    classes is mainly used for styling purpose while id have
+     many objectives it is used at various palces we can repeat 
+     classes in html but we cannot repeat id in html ,it is always
+      remains unique -->

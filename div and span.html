@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div and span tags</title>
+    <!-- div is a block level element while span is inline element -->
+    <style>
+        div {
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+        .container1{
+            background-color: rgb(20, 216, 43);
+            color: rgb(21, 117, 201);
+        }
+        .cls1{
+            color:yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- if i want to change background from
+         heading to list items how we can do? 
+        so for that we use container which we 
+        called div;it is a container in html-->
+    <div class="container1">
+        <h2>heading</h2>
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ul>
+    </div>
+
+    <!-- it won't show any change visibly to our eyes 
+    but there is invisible containers for these html elements -->
+
+    <div class="container2">
+        <h2>heading<span class="cls1"> two </span></h2>
+        <img src="peehuimage.jpeg" alt="Peehu singh">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Porro quidem sint dicta.</p>
+    </div>
+
+    <!-- if we only write div for both containers and do not give agme to it
+        but now the same changes occur to both containers so for
+         doing separate changes we use classes most preferably with our div tag so that we can use in css -->
+
+</body>
+
+</html>

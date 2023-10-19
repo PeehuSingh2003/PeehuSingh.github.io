@@ -1,0 +1,45 @@
+/* there are four psuedo classes->link,hover,visited,active */
+/* if i want to change the color of text in hover state for that we use psuedo clases */
+
+/*before  visiting the state of link is in blue text color */
+a:link{
+    color: orange;
+}
+ 
+/* while after visiting the state of link has been changed to purple color;called visted state */
+a:visited{
+    color:red;
+}
+/* by default browser stores the information of visited link in their cache and that's how they get to know that the link has been visited by automatically change its color blue to purple */
+
+/* hover state:As long as my mouse pointer is on that link, that link will be in hover state. */
+a:hover{
+    color:green;
+}
+
+/* active state is the state in which we hold the mouse cursor on to the link at that time whichever color it shows states that it is in active state */
+a:active{
+    color: black ;
+}
+
+p:hover{
+    color: crimson;
+}
+
+p:active{
+    background: rgb(31, 170, 212);
+}
+
+/* the correct order of writing the psuedo classes link, visited, hover, active */
+
+/* psuedo classes for input tags */
+
+input:focus{
+    padding: 5px;
+    outline: none;
+    border: 2px solid rgb(30, 173, 30);
+}
+
+input:required{
+    color: red;
+}

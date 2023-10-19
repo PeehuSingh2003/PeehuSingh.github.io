@@ -1,0 +1,16 @@
+/* In css we have two units: 
+1.absolute unit
+2.relative units */
+p{
+    /* 1.pixels is absolute unit */
+    font-size: 16px;
+    font-size: 32px;
+
+    /* 1 inch=96px */
+    font-size: 1in;
+    /* 1inch=2.54cm */
+    /* 1px=0.75pt */
+    /* 16px=0.75*16->12pt */
+    font-size: 12pt;
+    border:12pt solid red
+}

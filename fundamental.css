@@ -1,0 +1,38 @@
+/* mostly website use sans serif font instead of 
+serif font whivh come defaultly */
+/* CSS Fonts: */
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+}
+/* css color */
+/* h1{
+    color:blueviolet;
+    /* hexcode 
+    also used for picking the color which ranges from 0-9&a-f */
+ */
+/* css selectors */
+#main-heading{
+    background-color: rgb(205, 127, 27);
+}
+.main-section{
+    background-color: brown;
+}
+p{
+    background-color: rgb(206, 213, 226);
+}
+/* utility classes:in which we write classes and 
+their applied properities before writing a that
+ actual class in html code 
+ one utility class are only for one usage means 
+ it can be used to add only one property
+ we cannot repeat utility class*/
+
+ .text-red{
+    color:red;
+ }
+
+ .text-green{
+color: green;
+ }

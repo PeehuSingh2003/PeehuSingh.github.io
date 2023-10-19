@@ -1,0 +1,20 @@
+h1{
+    border:40px solid brown;
+    /* to adding the space between content and border is called padding */
+    /* padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px; */
+    /* when we write like this the first shows top-bottom and the second shows left-right */
+    /* padding: 20px 40px; */
+    /* we can also give padding in clockwise direction top right bottom left */
+    /* padding: 20px 30px 40px 50px; */
+    padding:10px;
+    border:20px dotted red;
+    margin-left:100px;
+    width:500px ;
+    margin: 20px auto;
+    text-align: center;
+    background-color:lightblue ;
+}
+

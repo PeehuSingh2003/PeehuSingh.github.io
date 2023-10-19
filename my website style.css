@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/photos/believe-the-unbelievable-picture-id527133391?b=1&k=20&m=527133391&s=170667a&w=0&h=KljJgJc2JCxoO6fxBPhX7YY8GRjW-IjGbvkkL0KHOhs=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.navbar{
+    text-align: center;
+    flex: 1;
+}
+
+.navbar a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    cursor: pointer;
+    color:  #cc0052;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid #033;
+    background: transparent;
+    text-decoration: none;
+    text-align: centre;
+    font-weight: bold;
+    margin: 40px 8px;
+
+}
+
+.btn :hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn a:visited{
+    background-color: #fff;
+    color: cc0052;
+
+}
+.btn a:hover{
+    color: #000;
+
+}
+.btn :link{
+   text-decoration: none;
+}
+
+.content{
+    text-align: center;
+    margin-top: 12%;
+
+}
+
+.content h1{
+    font-size: 80px;
+    color: black;
+}
+
+.
